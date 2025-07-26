@@ -1,12 +1,14 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Запуск проекта:
+1. Склонируйте репозиторий
+2. В терминале IDE установите зависимости командой "npm i", затем запустите предпросмотр проекта командой "npm run preview"
 
-Currently, two official plugins are available:
+Авторизация:
+При первом посещении перейдите по ссылке "Sign Up Now" после формы и введите тестовые данные для авторизации (настоящие не нужны). После вы попадете на сайт Netflix Clone, где можно в разных категориях просматривать трейлеры, кликнув на интересующие фильмы.
+В правом верхнем углу экрана ссылка-дропдаун "Sign out of Netflix" осуществляет выход из учетной записи и ведет на страницу авторизации. Здесь вы можете авторизоваться с теми же данными "Sign In" или создать еще одного пользователя "Sign Up".
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Использованы: 
+TMDB (movie database API) для создания слайдеров с фильмами и просмотра трейлеров
+Firebase для хранения данных пользователя
+React-toastify для валидации данных пользователя
